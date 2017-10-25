@@ -1,0 +1,93 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel='stylesheet', href='css/main.css')
+    
+  body
+
+    .container
+      .row
+        .col-md-4
+          h4 Checkboxes
+          label.control.control--checkbox
+            | First checkbox
+            input(type='checkbox', checked='checked')
+            .control__indicator
+          label.control.control--checkbox
+            | Second checkbox
+            input(type='checkbox')
+            .control__indicator
+          label.control.control--checkbox
+            | Disabled
+            input(type='checkbox', disabled='disabled')
+            .control__indicator
+          label.control.control--checkbox
+            | Disabled & checked
+            input(type='checkbox', disabled='disabled', checked='checked')
+            .control__indicator
+        .col-md-4
+          h4 Radio buttons
+          label.control.control--radio
+            | First radio
+            input(type='radio', name='radio', checked='checked')
+            .control__indicator
+          label.control.control--radio
+            | Second radio
+            input(type='radio', name='radio')
+            .control__indicator
+          label.control.control--radio
+            | Disabled
+            input(type='radio', name='radio2', disabled='disabled')
+            .control__indicator
+          label.control.control--radio
+            | Disabled & checked
+            input(type='radio', name='radio2', disabled='disabled', checked='checked')
+            .control__indicator
+        .col-md-4
+          h4 Select boxes
+          .select
+            select
+              option First select
+              option Option
+              option Option
+            .select__arrow
+          .select
+            select
+              option Second select
+              option Option
+              option Option
+            .select__arrow
+          .select
+            select(disabled='disabled')
+              option Disabled
+              option Option
+              option Option
+            .select__arrow
+            
+            
+      .space-100
+      .row
+        .col-md-12
+          h4 Buttons
+          a.btn(href="") Standart
+          a.btn.b-pri(href="") .b-pri
+          a.btn.b-sec(href="") .b-sec
+          a.btn.b-ter(href="") .b-ter
+          a.btn.b-bord(href="") .b-bord
+          a.btn.b-small(href="") .b-small
+          a.btn.b-big(href="") .b-big
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
