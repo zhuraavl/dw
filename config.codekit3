@@ -22,14 +22,14 @@
 		"oF": 0
 		},
 	"\/css\/main.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/css\/main.css.map": {
 		"ft": 8192,
@@ -97,7 +97,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/about.html",
+		"oAP": "\/dev\/jade\/about.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -105,7 +105,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/contact.html",
+		"oAP": "\/dev\/jade\/contact.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -113,7 +113,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/footer.html",
+		"oAP": "\/dev\/jade\/includes\/footer.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -121,23 +121,23 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/header.html",
+		"oAP": "\/dev\/jade\/includes\/header.html",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/dev\/jade\/index.jade": {
-		"cOD": 0,
+		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 2,
+		"oAP": "\/dev\/jade\/index.html",
+		"oF": 0,
 		"oS": 0
 		},
 	"\/dev\/jade\/styleguide.jade": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/styleguide.html",
+		"oAP": "\/dev\/jade\/styleguide.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -256,16 +256,16 @@
 		"oF": 0
 		},
 	"\/dev\/sass\/main.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/main.css",
-		"oF": 2,
-		"oS": 2,
+		"oAP": "\/dev\/sass\/main.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_button.sass": {
@@ -276,7 +276,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_button.css",
+		"oAP": "\/dev\/sass\/variables\/_button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -289,7 +289,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_color.css",
+		"oAP": "\/dev\/sass\/variables\/_color.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -302,7 +302,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_control.css",
+		"oAP": "\/dev\/sass\/variables\/_control.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -315,20 +315,20 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_css-class.css",
+		"oAP": "\/dev\/sass\/variables\/_css-class.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_media.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_media.css",
+		"oAP": "\/dev\/sass\/variables\/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -341,7 +341,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_space.css",
+		"oAP": "\/dev\/sass\/variables\/_space.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -354,20 +354,20 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_typography.css",
+		"oAP": "\/dev\/sass\/variables\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_utils.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dev\/sass\/css\/_utils.css",
+		"oAP": "\/dev\/sass\/variables\/_utils.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -392,7 +392,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -409,16 +409,25 @@
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/js\/lib\/min\/clipboard.min-min.js",
+		"oAP": "\/js\/lib\/clipboard.min-min.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/lib\/particle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lib\/particle-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/lib\/text-rotator.js": {
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/js\/lib\/min\/text-rotator-min.js",
+		"oAP": "\/js\/lib\/text-rotator-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -427,7 +436,7 @@
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/js\/lib\/min\/typed.min-min.js",
+		"oAP": "\/js\/lib\/typed.min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -436,18 +445,18 @@
 		"ft": 64,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "\/js\/min\/min\/app-min-min.js",
+		"oAP": "\/js\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/min\/scripts-min.js",
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/media\/img-p\/Adobe_Illustrator_.AI_File_Icon.png": {
@@ -1333,8 +1342,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1353,7 +1362,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -1561,7 +1570,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -1589,7 +1598,7 @@
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -1645,12 +1654,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -1658,18 +1667,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -1805,7 +1814,7 @@
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -2275,7 +2284,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2283,7 +2292,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -2319,15 +2328,15 @@
 		"quality": 100
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 1,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 0,
-		"syntaxCheckerStyle": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2344,8 +2353,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -2355,8 +2364,8 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -2368,7 +2377,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 1,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2408,10 +2417,10 @@
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "\/",
+		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 1,
+		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0
 		},
@@ -2421,12 +2430,12 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 1,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -2449,7 +2458,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -2473,13 +2482,13 @@
 		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
-		"moduleType": 0,
+		"moduleType": 2,
 		"noImplicitAny": 0,
 		"preserveConstEnums": 0,
 		"removeComments": 0,
@@ -2615,7 +2624,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
