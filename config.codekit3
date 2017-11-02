@@ -9,18 +9,6 @@
 	],
 "creatorBuild": "25849",
 "files": {
-	"\/about.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
-	"\/contact.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0
-		},
 	"\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -57,58 +45,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/dev\/design.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/design.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/dev\/idea.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/idea.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/dev\/jade\/about.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dev\/jade\/contact.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/dev\/jade\/includes\/footer.jade": {
 		"cOD": 1,
 		"ft": 512,
@@ -132,32 +68,6 @@
 		"oAP": "\/index.html",
 		"oF": 2,
 		"oS": 0
-		},
-	"\/dev\/jade\/styleguide.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/styleguide.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dev\/plugin.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/plugin.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_color.sassc": {
 		"ft": 8192,
@@ -372,24 +282,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/dev\/schema.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/schema.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -536,12 +428,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/styleguide.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/styleguide.html",
-		"oF": 0
 		}
 	},
 "hooks": [
