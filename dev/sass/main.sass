@@ -1,0 +1,836 @@
+
+@import "variables/color.sass"
+@import "variables/media.sass"
+@import "variables/typography.sass"
+@import "variables/space.sass"
+@import "variables/utils.sass"
+@import "variables/control.sass"
+@import "variables/button.sass"
+@import "variables/css-class.sass"
+
+// vendor
+@import "vendor/normalize.css"
+
+// http://flexboxgrid.com
+@import "vendor/flexboxgrid.min.css"
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato');
+
+
+// Main
+body
+  font-size: 16px
+  font-family: 'Lato', sans-serif
+  max-width: 1600px
+  margin: auto
+
+  
+  
+  
+aside
+  width: 25%
+  position: absolute
+  top: 0
+  left: 0
+  background: #333d49
+  color: #fff
+  padding-top: 50px
+  padding-bottom: 100px
+  height: 100vh
+  @media(min-height: 720px)
+    position: fixed
+  @media(max-height: 768px)  
+    overflow-y: scroll
+  @include tablet-v
+    width: 100%
+    height: 75px
+    position: fixed
+    z-index: 500
+    padding: 0
+    padding-top: 20px
+    min-height: auto
+  &.sticky
+    position: fixed
+    top: -265px
+    @include tablet-v
+      top: 0
+    @media(min-height: 720px)
+      top: 0
+  .aside-content
+    @include tablet-v
+      position: absolute
+      width: 100%
+      height: 100%
+      min-height: calc(100vh - 75px)
+      top: 75px
+      padding: 30px
+      background: #333d49
+      overflow-y: scroll
+      padding-bottom: 100px
+      opacity: 0
+      visibility: hidden
+      transition: all .3s ease-in-out
+  .mobil-button
+    position: absolute
+    top: 25px
+    right: 40px
+    width: 60px
+    display: none
+    @include tablet-v
+      display: block
+    span
+      height: 2px
+      background: #fff
+      display: block
+      margin-bottom: 10px
+      transition: all .3s ease-in-out
+    &.active
+      span:nth-child(odd)
+        transform: translateX(-15px)
+  .logo-header
+    padding-left: 45px
+    img
+      width: 200px
+      @include medium
+        width: 175px
+      @include tablet-v
+        width: 150px
+  h5
+    margin-bottom: 10px
+    padding: 0 100px
+    font-size: 16px
+    font-weight: 600
+    @include tablet-v
+      padding: 0px 50px
+      font-size: 16px 
+    @include medium
+      padding: 0px 50px
+  ul
+    list-style: none
+    margin: 0
+    margin-bottom: 10px
+    padding: 0
+    font-size: 12px
+    li
+      a
+        display: block
+        padding: 5px 100px
+        font-size: 14px
+        font-weight: 300
+        color: #999
+        @include medium
+          padding: 5px 50px
+        @include tablet-v
+          padding: 5px 50px
+          font-size: 16px 
+        &:hover
+          background: #5CC0DE
+          color: #fff
+        &.active
+          background: #355D8A
+          color: #fff  
+  &.show
+    .aside-content
+      opacity: 1
+      visibility: visible
+    
+    
+main
+  width: 100%
+  padding-left: 25%
+  @include tablet-v
+    padding-left: 0
+    padding-top: 100px
+  section
+    padding: 25px 100px
+    @include medium
+      padding: 10px 50px
+    @include tablet-v
+      padding: 10px
+    
+
+.welcome
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+  overflow: hidden
+  @include tablet-v
+    padding-bottom: 50px
+  p
+    margin-top: 0px
+    font-size: 18px
+    font-weight: 300
+    line-height: 1.6
+    a
+      font-weight: 500
+      color: #9581CA
+  h4
+    font-weight: 300
+    margin-bottom: 0
+    font-size: 80px
+    margin: 50px 0
+    line-height: 1.2
+    @include tablet-v
+      font-size: 42px
+  h2
+    font-size: 32px
+    font-weight: 600
+    margin-bottom: 0
+    margin-top: 0
+    span
+      color: #355D8A
+    @include tablet-v
+      font-size: 26px
+      
+      
+.color
+  padding-top: 50px
+  padding-bottom: 50px
+  .color-box
+    padding: 15px 10px 10px
+    text-align: center
+    width: 100%
+    .color-line
+      width: 100%
+      height: 25px
+      border-radius: 25px
+      box-shadow: 0 0 15px rgba(0, 0, 0, .1)
+    .color-line-box
+      overflow: hidden
+      white-space: nowrap
+      .color-line
+        display: inline-block
+        margin-right: 25px
+        -webkit-animation: colorSlider 10s cubic-bezier(1,0,0,1) infinite
+        animation: colorSlider 10s cubic-bezier(1,0,0,1) infinite 
+        position: relative
+      &.one, &.four
+        .color-line
+          left: -100%
+    p
+      color: #999
+      margin-bottom: 0
+      font-size: 16px
+    .hex
+      position: relative
+      cursor: pointer
+      @include tablet-v
+        font-size: 12px
+      &:before
+        content: 'HEX'
+        display: inline-block
+        vertical-align: middle
+        padding: 2px 3px
+        font-size: 10px
+        color: #999
+        border: 1px solid #999
+        border-radius: 5px
+        margin-right: 1em
+        pointer-events: none
+        @include tablet-v
+          font-size: 8px
+      &:after
+        content: 'click to copy'
+        position: absolute
+        left: 30px
+        top: 1px
+        font-size: 10px
+        text-transform: uppercase
+        border-radius: 5px
+        padding: 3px 5px
+        color: #6290C3
+        border: 1px solid #6290C3
+        opacity: 0
+      &:hover
+        &:before
+          opacity: 0
+        &:after
+          opacity: 1
+      &:active
+        &:after
+          background: #6290C3
+          color: #fff
+    .rgb
+      position: relative
+      cursor: pointer
+      @include tablet-v
+        font-size: 12px
+      &:before
+        content: 'RGB'
+        display: inline-block
+        vertical-align: middle
+        padding: 2px 3px
+        font-size: 10px
+        color: #999
+        border: 1px solid #999
+        border-radius: 5px
+        margin-right: 1em
+        pointer-events: none
+        @include tablet-v
+          font-size: 8px
+      &:after
+        content: 'click to copy'
+        position: absolute
+        left: 0px
+        top: 1px
+        font-size: 10px
+        text-transform: uppercase
+        border-radius: 5px
+        padding: 3px 5px
+        color: #6290C3
+        border: 1px solid #6290C3
+        opacity: 0
+      &:hover
+        &:before
+          opacity: 0
+        &:after
+          opacity: 1
+      &:active
+        &:after
+          background: #6290C3
+          color: #fff
+      
+      
+@keyframes colorSlider
+  0%, 100%
+    transform: translateX(0%)
+  25%
+    transform: translateX(10%)
+  50%
+    transform: translateX(-10%)   
+
+    
+    
+  
+.logo
+  padding-top: 100px
+  padding-bottom: 100px
+  overflow: hidden
+  @include tablet-v
+    padding-top: 50px
+  .button-download
+    color: #F6BD68
+    border: 2px solid #F6BD68
+    border-radius: 5px
+    padding: 10px 10px
+    padding-right: 65px
+    display: inline-block
+    position: relative
+    font-weight: 500
+    margin-left: .5em
+    transition: all .3s ease-in-out
+    img
+      position: absolute
+      right: 10px
+      height: 30px
+      top: 5px
+    &:hover
+      background: #F6BD68
+      color: #fff
+  h2
+    margin: 0
+    margin-bottom: 70px
+  h4
+    margin: 0
+    font-size: 22px
+    font-weight: 600
+    line-height: 1
+  p
+    color: #999
+    @include tablet-v
+      font-size: 12px
+  h6, p
+      margin: 0
+  h6
+    line-height: 1.7
+  .text-logo-box
+    font-size: 14px
+    color: #a5a5a5
+    padding-right: 50px
+    position: absolute
+    bottom: 30px
+    left: 0
+    line-height: 1.6
+    text-align: left
+    @include tablet-v
+      position: relative
+      bottom: auto
+      padding-top: 30px
+      padding-bottom: 30px
+      font-size: 10px
+  h6
+    color: #999
+    padding-bottom: 40px
+    @include tablet-v
+      padding-bottom: 0
+  img
+    height: 70px
+    display: block
+    width: auto
+    max-width: auto
+  .logo-box
+    width: 50%
+    float: left
+    min-height: 400px
+    position: relative
+    @include tablet-v
+      width: 100%
+      min-height: auto
+  .row
+    position: absolute
+    left: 0
+    bottom: 0px
+    height: 75px
+    width: 100%
+    padding: 0 50px
+    @include tablet-v
+      position: relative
+      margin: 0
+  .one
+    padding: 0
+  .two
+    background: #F6BD68
+    padding-top: 75px
+    min-height: 575px
+    @include tablet-v
+      min-height: auto
+      padding-top: 50px
+      padding-bottom: 50px
+    h6, p
+      color: #000
+    img
+      width: 60%
+      display: block
+      margin: auto
+      margin-bottom: 85px
+      height: auto
+      @include tablet-v
+        margin-bottom: 50px
+  .three
+    background: #7CC3F6
+    padding-top: 75px
+    min-height: 575px
+    @include tablet-v
+      min-height: auto
+      padding-top: 50px
+      padding-bottom: 50px
+    .img-box
+    p, h6
+      color: #000
+    img
+      width: 60%
+      height: auto
+      margin: auto
+      margin-bottom: 78px
+      @include tablet-v
+        margin-bottom: 50px
+  .four
+    background: #EBEDF0
+    @include tablet-v
+      padding-bottom: 25px
+    .row
+      p
+        opacity: .7
+    img
+      height: 175px
+      margin: auto
+      margin-top: 75px
+      transition: all .5s ease-in-out
+      @include tablet-v
+        height: auto
+        width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+    &:hover
+      img
+        transform: rotate(360deg)
+    
+@keyframes colorRotator
+  0%, 100%
+    background-color: #8C9CAF
+  25%
+    background-color: #6290C3
+  50%
+    background-color: #A3AFBF
+      
+      
+  
+  
+  
+#headilngs, #subheadings, #copy
+#headilngs
+  padding-top: 75px
+.typography
+  padding-top: 25px
+  padding-bottom: 25px
+  h5
+    margin: 0
+    line-height: 1.2
+    padding-bottom: 10px
+    margin-bottom: 30px
+    margin-top: 30px
+    border-bottom: 2px solid #7CC3F6
+  
+  h4
+    font-size: 22px
+    font-weight: 600
+    margin-bottom: 0
+  p
+    margin-bottom: 2em
+    color: #999
+  .typo-box
+    margin-bottom: 50px
+    .big-letter
+      border-radius: 5px
+      width: 100%
+      text-align: center
+      line-height: 140px
+      vertical-align: middle
+      height: 140px
+      box-shadow: 0 0 15px rgba(0, 0, 0, .1)
+      border: 1px solid #ccc
+      @include tablet-v
+        margin-bottom: 30px
+  .code
+    padding: 20px
+    padding-top: 40px
+    height: 140px
+    background: #eee
+    font-family: Inconsolata
+    font-size: 16px
+    color: #999
+    line-height: 1.4
+    border-radius: 5px
+    width: 100%
+    position: relative
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1)
+    border: 1px solid #ccc
+    &:after
+      content: 'CSS'
+      position: absolute
+      left: 20px
+      top: 10px
+      border: 1px solid #999
+      border-radius: 10px
+      font-size: 10px
+      padding: 1px 5px
+      pointer-events: none
+  .demo-text-box
+    height: 125px
+    position: relative
+    overflow: hidden
+    @include tablet-v
+      min-height: 125px
+      height: 150px
+    h4
+      color: #355D8A
+      margin-top: 15px
+      @include tablet-v
+        text-align: left
+        margin-bottom: 25px
+.rotate
+  position: relative
+  overflow: hidden
+  color: #000
+  margin: 0px 0
+  text-align: center
+  text-transform: uppercase
+  display: block
+.purple-border
+  font-weight: 600
+  font-size: 22px
+  &:before
+    content: ''
+    width: 7px
+    height: 32px
+    vertical-align: top
+    background: #9581CA
+    display: inline-block
+    margin-right: 1em
+  
+  
+  
+  
+  
+#what-the  
+  padding-top: 150px
+.voice-and-tone
+  ul
+    padding-left: 30px
+    list-style: none
+    li
+      font-weight: 300
+      font-size: 22px
+      margin-bottom: .5em
+      &:before
+        content: ''
+        width: 10px
+        height: 10px
+        display: inline-block
+        margin-right: .5em
+        border-radius: 100%
+        background: #555
+      
+  
+  .words-box-list
+    clear: both
+    overflow: hidden
+    .words-box
+      float: left
+      width: 50%
+      background: #F36866
+      color: #fff
+      padding: 50px
+      height: 250px
+      text-align: center
+      border-right: 1px solid #fff
+      border-bottom: 1px solid #fff
+      @include tablet-v
+        width: 100%
+        margin: 0
+        margin-bottom: 1em
+      h5
+        margin: 0
+        font-size: 22px
+        font-weight: 600
+        display: block
+        padding-top: 25px
+        @include tablet-v
+          padding-top: 25px
+          padding-bottom: 0px
+      p
+        margin-top: 10px
+        font-weight: 300
+        font-size: 18px
+  table
+    width: 100%
+  .tablet-content
+    @include tablet-v
+      max-width: 768px
+      overflow-y: scroll
+      table
+        width: 800px
+        margin: auto !important
+  table.voice-elements
+    margin: 0 -50px
+    margin-top: 25px
+    @include medium
+      margin: 25px 0
+    th
+      text-align: left
+      padding: 20px
+      font-size: 22px
+      border-bottom: 1px solid #000
+      color: #000
+      font-weight: 600
+      @include tablet-v
+        padding: 10px
+        font-size: 14px
+      span
+        font-size: 16px
+        color: #999
+        font-weight: 300
+        display: block
+    td
+      padding: 20px
+      font-weight: #000
+      font-size: 18px
+      font-weight: 300
+      @include tablet-v
+        padding: 10px
+        font-size: 14px
+    tbody
+      th
+        transform: rotate(-90deg)
+        text-align: center
+        border-bottom: 0
+        border-right: 1px solid #000
+      
+  table.wisely
+    text-align: left
+    margin: 25px -50px
+    @include medium
+      margin: 25px 0
+    thead
+      tr
+        padding-bottom: 20px
+    td, th
+      width: 33.3%
+      padding: 15px
+    th
+      font-size: 22px
+      font-weight: 600
+      padding-bottom: 20px
+      border-bottom: 1px solid #000
+      @include tablet-v
+        padding: 10px
+        font-size: 14px
+    td
+      font-size: 18px
+      font-weight: 300
+      @include tablet-v
+        font-size: 14px
+  .active-voice
+    margin: 50px 0 25px
+    overflow: hidden
+    clear: both
+    .active-left, .passive-right
+      float: left
+      width: 50%
+      border-radius: 5px
+      background: #EBEDF0
+      padding-bottom: 50px
+      @include tablet-v
+        float: none
+        width: 100%
+    .passive-right
+      h4
+        background: #7CC3F6
+    h4
+      font-size: 22px
+      font-weight: 300
+      padding: 50px
+      margin: 0
+      margin-bottom: 45px
+      background: #F6BD68
+      color: #000
+    p
+      font-size: 16px
+      padding: 0 50px
+    thead
+      th
+        p
+          font-size: 18px
+          font-weight: bold
+          padding: 20px
+          padding-top: 30px
+          border: 1px solid #ccc
+          background: #355D8A
+          color: #fff
+          font-weight: 500
+          text-align: center
+    tbody
+      tr
+        td
+          p 
+            background: #eee
+            padding: 20px
+            padding-top: 30px
+            font-size: 16px
+            font-weight: 500
+      
+  .quote-list
+    .quote-box
+      width: 90%
+      margin-bottom: 50px
+      @include tablet-v
+        width: 100%
+        padding: 20px
+      p
+        font-size: 18px
+        font-weight: 300
+        border-bottom: 2px solid #9581CA
+        padding-bottom: 15px
+        @include tablet-v
+          font-size: 16px
+          font-weight: 500
+      a
+        font-weight: 600
+        font-size: 14px
+        display: block
+        color: #9581CA
+        @include tablet-v
+          font-size: 12px
+      
+      
+      
+      
+      
+      
+
+
+.rotating
+  display: inline-block
+  -webkit-transform-style: preserve-3d
+  -moz-transform-style: preserve-3d
+  -ms-transform-style: preserve-3d
+  -o-transform-style: preserve-3d
+  transform-style: preserve-3d
+  -webkit-transform: rotateX(0) rotateY(0) rotateZ(0)
+  -moz-transform: rotateX(0) rotateY(0) rotateZ(0)
+  -ms-transform: rotateX(0) rotateY(0) rotateZ(0)
+  -o-transform: rotateX(0) rotateY(0) rotateZ(0)
+  transform: rotateX(0) rotateY(0) rotateZ(0)
+  -webkit-transition: 0.5s
+  -moz-transition: 0.5s
+  -ms-transition: 0.5s
+  -o-transition: 0.5s
+  transition: 0.5s
+  -webkit-transform-origin-x: 50%
+  &.flip
+    position: relative
+  .front, .back
+    left: 0
+    top: 0
+    -webkit-backface-visibility: hidden
+    -moz-backface-visibility: hidden
+    -ms-backface-visibility: hidden
+    -o-backface-visibility: hidden
+    backface-visibility: hidden
+  .front
+    position: absolute
+    display: inline-block
+    -webkit-transform: translate3d(0, 0, 1px)
+    -moz-transform: translate3d(0, 0, 1px)
+    -ms-transform: translate3d(0, 0, 1px)
+    -o-transform: translate3d(0, 0, 1px)
+    transform: translate3d(0, 0, 1px)
+  &.flip .front
+    z-index: 1
+  .back
+    display: block
+    opacity: 0
+  &.spin
+    -webkit-transform: rotate(360deg) scale(0)
+    -moz-transform: rotate(360deg) scale(0)
+    -ms-transform: rotate(360deg) scale(0)
+    -o-transform: rotate(360deg) scale(0)
+    transform: rotate(360deg) scale(0)
+  &.flip
+    .back
+      z-index: 2
+      display: block
+      opacity: 1
+      -webkit-transform: rotateY(180deg) translate3d(0, 0, 0)
+      -moz-transform: rotateY(180deg) translate3d(0, 0, 0)
+      -ms-transform: rotateY(180deg) translate3d(0, 0, 0)
+      -o-transform: rotateY(180deg) translate3d(0, 0, 0)
+      transform: rotateY(180deg) translate3d(0, 0, 0)
+    &.up .back
+      -webkit-transform: rotateX(180deg) translate3d(0, 0, 0)
+      -moz-transform: rotateX(180deg) translate3d(0, 0, 0)
+      -ms-transform: rotateX(180deg) translate3d(0, 0, 0)
+      -o-transform: rotateX(180deg) translate3d(0, 0, 0)
+      transform: rotateX(180deg) translate3d(0, 0, 0)
+    &.cube
+      .front
+        -webkit-transform: translate3d(0, 0, 100px) scale(0.9, 0.9)
+        -moz-transform: translate3d(0, 0, 100px) scale(0.85, 0.85)
+        -ms-transform: translate3d(0, 0, 100px) scale(0.85, 0.85)
+        -o-transform: translate3d(0, 0, 100px) scale(0.85, 0.85)
+        transform: translate3d(0, 0, 100px) scale(0.85, 0.85)
+      .back
+        -webkit-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.9, 0.9)
+        -moz-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+        -ms-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+        -o-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+        transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+      &.up .back
+        -webkit-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.9, 0.9)
+        -moz-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+        -ms-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+        -o-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)
+        transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85)      
+      
+      
+      

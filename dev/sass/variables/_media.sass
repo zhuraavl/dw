@@ -1,0 +1,26 @@
+
+@mixin mobil
+  @media (max-width: 599px)
+    @content
+
+@mixin tablet-v
+  @media (max-width: 768px)
+    @content
+
+@mixin tablet-h
+  @media (max-width: 900px)
+    @content
+
+@mixin medium
+  @media (max-width: 1024px)
+    @content 
+
+@mixin large
+  @media (min-width: 1800px)
+    @content
+
+
+// Example:
+
+  @include mobil
+    padding: 20px

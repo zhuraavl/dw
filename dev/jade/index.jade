@@ -1,0 +1,625 @@
+doctype html
+html(lang='en')
+  head
+  
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title data.world design guide
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='stylesheet', href='css/main.css')
+    script.
+      document.documentElement.className = 'js';
+  body.loading
+    
+    
+    
+    aside
+      a.logo-header(href="")
+        img(src="media/img-p/logo.svg", alt="")
+      .mobil-button
+        span
+        span
+        span
+      .aside-content
+        h5 Design Guide
+        ul
+          li
+            a(href="#about") About this guide
+        h5 Color
+        ul
+          li
+            a(href="#color") Pallette
+        h5 Logo
+        ul
+          li
+            a(href="#logo") Usage guidlines
+        h5 Typography
+        ul
+          li
+            a(href="#headilngs") Headings
+          li
+            a(href="#subheadings") Subheadings
+          li
+            a(href="#copy") Copy
+        h5 Tone & Voice
+        ul
+          li
+            a(href="#what-the") What the owl means
+          li
+            a(href="#our-voice") Our voice elements
+          li
+            a(href="#why-is-word") Why is word choice important
+          li
+            a(href="#choose-wisely") Choose wisely (owl pun intended)
+          li
+            a(href="#use-the-active") Use the active voice
+          li
+            a(href="#write-strong") Write strong ledes
+            
+            
+            
+    main
+      section.welcome#about
+        h2 
+          span data.world 
+          |design guide
+        h4 
+          |Welcome to the 
+          br
+          |data.world styleguide
+        .row
+          .col-md-7.col-sm-8.col-xs-12
+            p 
+              |This guide is meant to help understand how to appropriately use our brand. In it you'll find logo usage guidelines, our color palette, and typography standard. If you have a question that is not answered in this guide, please reach out to  
+              a(href="") help@data.world
+              
+              
+              
+      section.color#color
+        h2 Colors
+        
+        .color-box
+          .color-line-box.four
+            .color-line(style="background-color: #355D8A;")
+            .color-line(style="background-color: #355D8A;")
+          .row
+            .col-sm-4.col-xs-12
+              p bluePrimary
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#355D8A") #355D8A
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(53, 93, 138)") rgb(53, 93, 138)
+              
+        .color-box
+          .color-line(style="background-color: #6290C3")
+          .row
+            .col-sm-4.col-xs-12
+              p blueSecondary
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#6290C3") #6290C3
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(98, 144, 195)") rgb(98, 144, 195)
+          
+        .color-box
+          .color-line(style="background-color: #333D49")
+          .row
+            .col-sm-4.col-xs-12
+              p blueDark
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#333D49") #333D49
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(51, 61, 73)") rgb(51, 61, 73)
+
+        .color-box
+          .color-line(style="background-color: #5CC0DE")
+          .row
+            .col-sm-4.col-xs-12
+              p blueAqua
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#5CC0DE") #5CC0DE
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(92, 192, 222)") rgb(92, 192, 222)
+              
+        .color-box
+          .color-line-box.theee
+            .color-line(style="background-color: #7CC3F6;")
+            .color-line(style="background-color: #7CC3F6;")
+          .row
+            .col-sm-4.col-xs-12
+              p blueSky
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#7CC3F6") #7CC3F6
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(124, 195, 246)") rgb(124, 195, 246)
+          
+        .color-box
+          .color-line(style="background-color: #68BF70")
+          .row
+            .col-sm-4.col-xs-12
+              p greenPrimary
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#68BF70") #68BF70
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(104, 191, 112)") rgb(104, 191, 112)
+          
+        .color-box
+          .color-line(style="background-color: #9CD2A0")
+          .row
+            .col-sm-4.col-xs-12
+              p greenLight
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#9CD2A0") #9CD2A0
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(156, 210, 160)") rgb(156, 210, 160)
+              
+        .color-box
+          .color-line(style="background-color: #7EC3B3")
+          .row
+            .col-sm-4.col-xs-12
+              p greenBlue
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#7EC3B3") #7EC3B3
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(126, 195, 179)") rgb(126, 195, 179)
+              
+        .color-box
+          .color-line(style="background-color: #4E8098")
+          .row
+            .col-sm-4.col-xs-12
+              p greenBlueDark
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#4E8098") #4E8098
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(78, 128, 152)") rgb(78, 128, 152)
+          
+        .color-box
+          .color-line-box.two
+            .color-line(style="background-color: #F6BD68;")
+            .color-line(style="background-color: #F6BD68;")
+          .row
+            .col-sm-4.col-xs-12
+              p orange
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#F6BD68") #F6BD68
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(246, 189, 104)") rgb(246, 189, 104)
+              
+        .color-box
+          .color-line(style="background-color: #F36866")
+          .row
+            .col-sm-4.col-xs-12
+              p red
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#F36866") #F36866
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(243, 104, 102)") rgb(243, 104, 102)
+          
+        .color-box
+          .color-line(style="background-color: #9581CA")
+          .row
+            .col-sm-4.col-xs-12
+              p purple
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#9581CA") #9581CA
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(149, 129, 202)") rgb(149, 129, 202)
+          
+        .color-box
+          .color-line-box.one
+            .color-line(style="background-color: #8C9CAF;")
+            .color-line(style="background-color: #8C9CAF;")
+          .row
+            .col-sm-4.col-xs-12
+              p blueGrey1
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#8C9CAF") #8C9CAF
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(140, 156, 175)") rgb(140, 156, 175)
+          
+        .color-box
+          .color-line(style="background-color: #A3AFBF")
+          .row
+            .col-sm-4.col-xs-12
+              p blueGrey2
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#A3AFBF") #A3AFBF
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(163, 175, 191)") rgb(163, 175, 191)
+          
+        .color-box
+          .color-line(style="background-color: #EBEDF0")
+          .row
+            .col-sm-4.col-xs-12
+              p blueGrey3
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#EBEDF0") #EBEDF0
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(235, 237, 240)") rgb(235, 237, 240)
+          
+        .color-box
+          .color-line(style="background-color: #ECF2FB")
+          .row
+            .col-sm-4.col-xs-12
+              p blueGrey4
+            .col-sm-4.col-xs-6
+              p.hex(data-clipboard-text="#ECF2FB") #ECF2FB
+            .col-sm-4.col-xs-6
+              p.rgb(data-clipboard-text="rgb(236, 242, 248)") rgb(236, 242, 248)
+          
+          
+          
+      section.logo#logo
+        h2 Logos
+        .logo-box.one
+          h4 Usage Guidelines (forthcoming)
+          br
+          p 
+            |Source file for logo:
+            a.button-download(href="")
+              |Download
+              img(src="media/img-p/Adobe_Illustrator_.AI_File_Icon.png", alt="")
+          .text-logo-box
+            span data.world, our owl logo and combinations of data.world and owl logo are trademarks of data.world, Inc. and can only be used with our authorization and in accordance with any brand guidelines we may publish. We may adopt other product, service names or logos in the future, and their absence from this list does not mean we have waived our rights in them.
+            
+        .logo-box.four
+          img(src="media/img-p/sparkle-logo-dataworld.png", alt="")
+          .row
+            .col-sm-6.col-xs-12
+              h6 Sparkle
+            .col-sm-6.col-xs-12
+              p  Lorem ipsum dolor sit amet
+        .logo-box.three
+          .img-box
+            img(src="media/img-p/dataworld-logo-vertical-white.png", alt="")
+          .img-box
+            img(src="media/img-p/vertical-logo-dataworld.png", alt="")
+          .row
+            .col-sm-6.col-xs-12
+              h6 
+                |Vertical 
+                br
+                |Logo
+            .col-sm-6.col-xs-12
+              p  Lorem ipsum dolor sit amet
+        .logo-box.two
+          .img-box
+            img(src="media/img-p/dataworld-logo-horizontal-white.png", alt="")
+          .img-box
+            img(src="media/img-p/horizontal-logo-dataworld.png", alt="")
+          .img-box
+            img(src="media/img-p/dataworld-logo-horizontal-bw.png", alt="")
+          .row
+            .col-sm-6.col-xs-12
+              h6 
+                |Horizontal 
+                br
+                |logo
+            .col-sm-6.col-xs-12
+              p Lorem ipsum dolor sit amet
+        
+        
+      section.typography#headilngs
+        h2 Typography
+        .row
+          .col-md-12.col-xs-12
+            h4.purple-border HEADLINES
+            p There are two versions of the headlines that we will use. One light, and heavy. 
+            .row
+              .col-sm-6.col-xs-12
+                .typo-box
+                  .row
+                    .col-md-12.col-xs-12
+                      h5(style="font-family: Lato;font-size: 54px;color: #333D49;font-weight: 600;") Headline Heavy
+                    .col-md-6.col-xs-12
+                      .big-letter(style="font-family: Lato;font-size: 54px;color: #333D49;font-weight: 600;background-color: #ECF2FB;")
+                        .rotate(style="font-family: Lato;font-size: 54px;color: #000;font-weight: 600;") H, e, a, v, y
+                    .col-md-6.col-xs-12
+                      .code
+                        |font-family: Lato;
+                        br
+                        |font-size: 54px;
+                        br
+                        |font-weight: 600;
+              .col-sm-6.col-xs-12
+                .typo-box
+                  .row
+                    .col-md-12.col-xs-12
+                      h5(style="font-family: Lato;font-size: 54px;color: #333D49;font-weight: 100;") Headline Light
+                    .col-md-6.col-xs-12
+                      .big-letter(style="font-family: Lato;font-size: 54px;color: #fff;font-weight: 100;background-color:#7CC3F6;")
+                        span L
+                    .col-md-6.col-xs-12
+                      .code
+                        |font-family: Lato;
+                        br
+                        |font-size: 54px;
+                        br
+                        |font-weight: 100;
+                        
+                        
+                        
+      section.typography#subheadings
+        .row            
+          .col-md-12.col-xs-12
+            h4.purple-border SUBHEADLINES
+            p There are two versions of subheadlines. One light and one heavy.
+            .row
+              .col-sm-6.col-xs-12
+                .typo-box
+                  .row
+                    .col-md-12.col-xs-12
+                      h5(style="font-family: Lato;font-size: 30px;color: #333D49;font-weight: 600;") 
+                        |SubHeadline 
+                        |Heavy
+                    .col-md-6.col-xs-12
+                      .big-letter(style="font-family: Lato;font-size: 30px;color: #fff;font-weight: 600;background-color:#5CC0DE;")
+                        span H
+                    .col-md-6.col-xs-12
+                      .code
+                        |font-family: Lato;
+                        br
+                        |font-size: 30px;
+                        br
+                        |font-weight: 600;
+              .col-sm-6.col-xs-12
+                .typo-box
+                  .row
+                    .col-md-12.col-xs-12
+                      h5(style="font-family: Lato;font-size: 30px;color: #333D49;font-weight: 100;") 
+                        |SubHeadline 
+                        |Light
+                    .col-md-6.col-xs-12
+                      .big-letter(style="font-family: Lato;font-size: 30px;color: #333D49;font-weight: 100;background-color:#EBEDF0;")
+                        .rotate(style="font-family: Lato;font-size: 30px;color: #000;font-weight: 100;;") L, i, g, h, t
+                    .col-md-6.col-xs-12
+                      .code
+                        |font-family: Lato;
+                        br
+                        |font-size: 30px;
+                        br
+                        |font-weight: 100;
+
+                    
+                  
+      section.typography#copy
+        .row
+          .col-md-6.col-xs-12
+            h4.purple-border BODY COPY
+            br
+            .row
+              .col-md-12.col-xs-12
+                .demo-text-box
+                  p(style="font-family: Lato;font-size: 16px;line-height: 24px;font-weight: 300;")
+                    span.typed
+                .code
+                  |font-family: Lato;
+                  br
+                  |font-size: 16px;
+                  br
+                  |font-weight: 300;
+          .col-md-6.col-xs-12
+            h4.purple-border SECTION HEADERS
+            br
+            .demo-text-box
+              h4(style="font-family: Lato;font-size: 22px;font-weight: 600;")  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere.
+            .code
+              |font-family: Lato;
+              br
+              |font-size: 22px;
+              br
+              |font-weight: 600;
+          
+          
+
+    
+      section.voice-and-tone#what-the
+        h2 Voice and Tone
+        h4.purple-border What the owl means:
+        p.italic Owls are usually depicted as wise and honorable and serve as mentors, teachers, and advisors.*
+        h5 In 4 words
+        .words-box-list
+          .words-box
+            h5 Clever
+            p curious, skilled, knowledgeable, funny
+          .words-box
+            h5 Committed
+            p driven, passionate, motivating, stirring
+          .words-box
+            h5 Inclusive
+            p approachable, not elite, not judgmental, kind, helpful, not jargony, familiar, social 
+          .words-box
+            h5 Owl-like
+            p wise, knowledgeable, observant, honorable, curious, helpful
+        br
+      section.voice-and-tone#our-voice 
+        h4.purple-border Our voice elements
+        .tablet-content
+          table.voice-elements
+            thead
+              tr
+                th
+                  |Voice element
+                th
+                  |Description
+                th
+                  |Do 
+                  span when / where appropriate
+                th
+                  |Don’t 
+                  span just...don’t
+            tbody
+              tr
+                th Clever
+                td Quick-witted, skilled, resourceful, knowledgeable, funny, curious
+                td Use data-literate language, be accurate, ask interesting questions, sprinkle-in intelligent humor, make informed observations
+                td Oversimplify, be confusing, be nosey, be cheesy, make superficial observations
+              tr
+                th Inclusive
+                td Down-to-earth, friendly, approachable, helpful, familiar, social, warm
+                td Be straightforward, speak plainly, be responsive, be engaging, use language to connect people to others, be transparent
+                td Talk down, be snarky, be too formal, use jargon, be vapid, criticize
+              tr
+                th Committed
+                td Passionate, dedicated, cause-driven, motivating, stirring, opinionated
+                td Celebrate open data & related causes, be idealistic, inspire users, champion users and their work, nudge toward outcomes, use exciting language
+                td Gloss-over contributions, be pushy, annoy, coerce, deceive, engage in puffery, be self-serving
+                
+                
+                
+      section.voice-and-tone#why-is-word
+        h4.purple-border Why is word choice important
+        p Words can establish credibility, motivate action, and most importantly, differentiate data.world in good ways. 
+        p If we sound like everyone else, or if we don’t clearly describe what we do and why we do it, we will never be more than a blip on the radar. 
+        p We’re not a “blip” company. 
+        br
+        h4.purple-border Shibboleths
+        p.italic A use of language regarded as distinctive of a particular group
+        p Marketing-speak, VC buzzwords, and other jargon will alienate our broader community in pursuit of the small sliver of that community that responds well.
+        p Our community draws from data workers, civic volunteers, data journalists, and other technical and idealistic groups. They are justifiably “marketing averse.” They will run from language that marks us as outsiders or in it for the “wrong” reasons.
+        br
+        
+        
+        
+      section.voice-and-tone#choose-wisely
+        h4.purple-border Choose wisely (owl pun intended)
+        .tablet-content
+          table.wisely
+            thead
+              tr
+                th Avoid
+                th Try
+                th Why
+            tbody
+              tr 
+                td Leverage
+                td Use
+                td Overused, enterprisey
+              tr 
+                td Ground truth
+                td Truth
+                td Buzzword (unless referring to the difference between perception and reality or aerial mapping)
+              tr 
+                td Enable
+                td Help, allow
+                td Overused, enterprisey
+              tr 
+                td Value
+                td.italic Be specific: what is the value? 
+                td Nebulous, overused, enterprisey
+              tr 
+                td Curate
+                td Choose, pick
+                td Buzzword, overused
+              tr 
+                td Utilize
+                td Use
+                td False sophistication
+              tr 
+                td Learnings
+                td Lessons, insights
+                td Buzzword, means the same thing as “lessons”
+              tr 
+                td Paradigm shift
+                td Change
+                td Buzzword, enterprisey
+              tr 
+                td Big Data
+                td Data
+                td We are not a big data platform, so let’s not use it when referring to data.world
+              tr 
+                td User
+                td Community member, member
+                td Those who use the platform are part of the data.world community
+              tr 
+                td Unlock
+                td Achieve, create, reach, produce
+                td Overused
+              tr 
+                td Drive
+                td Achieve, create, reach, produce
+                td Overused, enterprisey
+              tr 
+                td Mission-critical
+                td Fundamental, critical
+                td Overused, enterprisey
+              tr 
+                td Price point
+                td Price
+                td False sophistication, 99.9% of the time people use this they simply mean “price.”
+                
+                
+                
+      section.voice-and-tone#use-the-active    
+        h4.purple-border Use the active voice
+        .active-voice
+          .active-left
+            h4 Active voice: what a person or thing does.
+            p Harry (subject) ate (verb) six shrimp (object) at dinner. 
+            p The critic (subject) wrote (verb) a scathing review (object).
+            p Matt (subject) leads (verb) the business team (object).
+            p Dave (subject) reprogrammed (verb) the animatronic Chuck E. Cheese owl (object). 
+          .passive-right
+            h4 Passive voice: what is done to someone or something.
+            p At dinner, six shrimp (object) were eaten (verb) by Harry (subject). 
+            p A scathing review (object) was written (verb) by the critic (subject). 
+            p The business team (object) is led (verb) by Matt (subject). 
+            p The animatronic Chuck E. Cheese owl (object) was reprogrammed (verb) by Dave (subject).
+        
+        
+        
+      section.voice-and-tone#write-strong
+        h4.purple-border Write strong ledes
+        p Hit readers hard or lose them forever. If your lede (alternatively: lead) isn’t strong, the rest barely matters. 
+        h5 To find your lede, ask yourself: 
+        ul
+          li What are the stakes?
+          li How can I defy expectation? 
+          li What makes this abstract idea concrete?
+          li What do I want the reader to imagine?
+        br
+        p If you can’t find a strong lede, come back to the task later. Still nothing? Maybe it’s a sign that the article you want to write isn’t one people want to read. Change something drastically (theme, structure, scope, etc.) and try again, or shelve.
+        p Writing about data and related subjects can be tough. It’s abstract, and hardly the most vivid way to represent the thrumming, vivid world we inhabit. Don’t let those cells imprison your prose! 
+        h5 Examples:
+        .row.quote-list.middle-xs
+          .col-sm-6
+            .quote-box
+              p Earlier this month, The Washington Post reported that a 7-year-old in McKeesport, PA, “told her bus driver she couldn’t wake her parents. Police found them dead at home.” Sadly, this is one of many recent stories that help us understand the true toll of opioid addiction in the U.S. This week, the data behind this and other important topics in the U.S. and abroad.
+              a.autor(href="https://page.data.world/data-digest") — Data Diges
+          .col-sm-6
+            .quote-box
+              p 
+                |What if we look back at this decade and think: this is the moment when we started to sort out what data meant to us?”
+                br 
+                br 
+                |Laurie Frick believes we’re living this moment right now. As a Data Artist, Laurie explores the intersection of data and design. She is forging a new path for the expression of personal data
+              a.autor(href="https://blog.data.world/data-as-art-the-key-to-our-identity-155235a55897") — Gabriela Swider, distinct values
+          .col-sm-6
+            .quote-box
+              p Tom McNichol has fished a lot of strange things out of Boston's Charles River. Among the most unexpected are a portable toilet, a recliner, and a dead body.
+              a.autor(href="https://www.csmonitor.com/World/Making-a-difference/2013/1101/When-Tom-McNichol-saw-swirling-trash-he-launched-his-Clean-Up-Boat") — Jenna Fisher, Christian Science Monitor
+          
+          .col-sm-6
+            .quote-box
+              p Be honest: how long do you spend combing for missing values, scrubbing erroneous outliers, and coercing columns into a uniform format just to get to the analysis you want to do?
+              a.autor(href="https://meta.data.world/introducing-the-data-inspector-9eff94ac6b8b") — Brad Pettigrew, meta.data.world
+          .col-sm-6
+            .quote-box
+              p While students at the University of South Florida St. Petersburg awaited a lashing from Hurricane Irma, the school's leader fled the state for Atlanta and insinuated in an email to her boss that she remained on campus — going so far as to say things were quiet and that she heard birds chirping.
+              a.autor(href="http://www.tampabay.com/news/education/college/usf-st-pete-leader-forced-out-for-botching-irma-evacuation/2337921?utm_source=dlvr.it&utm_medium=twitter") — Claire McNeill, Tampa Bay Times
+            
+        
+
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="js/lib/typed.min.js")
+    script(src="js/lib/clipboard.min.js")
+    script(src="js/lib/text-rotator.js")
+    script(src="js/scripts.js")
+    
+    
+    
+  
