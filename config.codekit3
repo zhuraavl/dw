@@ -9,18 +9,6 @@
 	],
 "creatorBuild": "25849",
 "files": {
-	"\/about.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
-	"\/contact.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0
-		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,76 +26,24 @@
 		"oF": 0
 		},
 	"\/css\/vendor\/flexboxgrid.min.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/vendor\/flexboxgrid.min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/css\/vendor\/normalize.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/vendor\/normalize-min.css",
 		"oF": 0,
-		"oS": 0
-		},
-	"\/dev\/design.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/design.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/dev\/idea.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/idea.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/dev\/jade\/about.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/dev\/jade\/about.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dev\/jade\/contact.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/dev\/jade\/contact.html",
-		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/dev\/jade\/includes\/footer.jade": {
 		"cOD": 1,
@@ -132,32 +68,6 @@
 		"oAP": "\/dev\/jade\/index.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/dev\/jade\/styleguide.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/dev\/jade\/styleguide.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/dev\/plugin.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/plugin.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/dev\/sass\/.sass-cache\/21a12a1e9013a9493b8c17449ebf1196e12cff99\/_color.sassc": {
 		"ft": 8192,
@@ -269,7 +179,7 @@
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_button.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -282,7 +192,7 @@
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_color.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -295,7 +205,7 @@
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_control.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -308,7 +218,7 @@
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_css-class.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -334,7 +244,7 @@
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_space.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -347,7 +257,7 @@
 		"uL": 1
 		},
 	"\/dev\/sass\/variables\/_typography.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -372,24 +282,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/dev\/schema.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/dev\/schema.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -398,56 +290,47 @@
 		},
 	"\/js\/app.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/min\/app-min.js",
-		"oF": 2,
-		"sC": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/app-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/lib\/clipboard.min.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/lib\/clipboard.min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/lib\/particle.js": {
-		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/lib\/particle-min.js",
+		"oAP": "\/js\/lib\/clipboard.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/lib\/text-rotator.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "\/js\/lib\/text-rotator-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/lib\/typed.min.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "\/js\/lib\/typed.min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/min\/app-min.js": {
 		"ft": 64,
-		"mi": 0,
-		"oA": 1,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "\/js\/min\/app-min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/scripts.js": {
@@ -472,12 +355,12 @@
 		},
 	"\/media\/img-p\/dataworld-logo-horizontal-bw.png": {
 		"ft": 32768,
-		"iS": 693827,
+		"iS": 95159,
 		"oA": 0,
 		"oAP": "\/media\/img-p\/dataworld-logo-horizontal-bw.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -545,12 +428,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/styleguide.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/styleguide.html",
-		"oF": 0
 		}
 	},
 "hooks": [

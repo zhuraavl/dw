@@ -39,11 +39,7 @@ a:visit { color: blue; }
 
 .no-js #preloader { display: none !important; }
 
-<<<<<<< HEAD
 * { box-sizing: border-box; outline: none !important; }
-=======
-* { box-sizing: border-box; }
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 
 img { max-width: 100%; }
 
@@ -117,19 +113,12 @@ img { max-width: 100%; }
 
 body { font-size: 16px; font-family: 'Lato', sans-serif; max-width: 1600px; margin: auto; }
 
-<<<<<<< HEAD
 aside { width: 25%; position: absolute; top: 0; left: 0; background: #333d49; color: #fff; padding-top: 50px; padding-bottom: 100px; height: 100vh; }
 
 @media (min-height: 720px) { aside { position: fixed; } }
 
 @media (max-height: 768px) { aside { overflow-y: scroll; } }
 
-=======
-aside { width: 25%; position: absolute; top: 0; left: 0; background: #333d49; color: #fff; padding-top: 50px; padding-bottom: 100px; min-height: 100vh; }
-
-@media (min-height: 720px) { aside { position: fixed; } }
-
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 @media (max-width: 768px) { aside { width: 100%; height: 75px; position: fixed; z-index: 500; padding: 0; padding-top: 20px; min-height: auto; } }
 
 aside.sticky { position: fixed; top: -265px; }
@@ -152,31 +141,22 @@ aside .logo-header { padding-left: 45px; }
 
 aside .logo-header img { width: 200px; }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) { aside .logo-header img { width: 175px; } }
 
-=======
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 @media (max-width: 768px) { aside .logo-header img { width: 150px; } }
 
 aside h5 { margin-bottom: 10px; padding: 0 100px; font-size: 16px; font-weight: 600; }
 
 @media (max-width: 768px) { aside h5 { padding: 0px 50px; font-size: 16px; } }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) { aside h5 { padding: 0px 50px; } }
 
-=======
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 aside ul { list-style: none; margin: 0; margin-bottom: 10px; padding: 0; font-size: 12px; }
 
 aside ul li a { display: block; padding: 5px 100px; font-size: 14px; font-weight: 300; color: #999; }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) { aside ul li a { padding: 5px 50px; } }
 
-=======
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 @media (max-width: 768px) { aside ul li a { padding: 5px 50px; font-size: 16px; } }
 
 aside ul li a:hover { background: #5CC0DE; color: #fff; }
@@ -191,17 +171,10 @@ main { width: 100%; padding-left: 25%; }
 
 main section { padding: 25px 100px; }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) { main section { padding: 10px 50px; } }
 
 @media (max-width: 768px) { main section { padding: 10px; } }
 
-=======
-@media (max-width: 768px) { main section { padding: 10px; } }
-
-#canvas { position: absolute; left: 0; width: 100vw; height: 100vh; top: 0px; z-index: -1; opacity: .5; }
-
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 .welcome { position: relative; padding-top: 100px; padding-bottom: 100px; overflow: hidden; }
 
 @media (max-width: 768px) { .welcome { padding-bottom: 50px; } }
@@ -308,11 +281,7 @@ main section { padding: 25px 100px; }
 
 .logo .logo-box { width: 50%; float: left; min-height: 400px; position: relative; }
 
-<<<<<<< HEAD
 @media (max-width: 768px) { .logo .logo-box { width: 100%; min-height: auto; } }
-=======
-@media (max-width: 768px) { .logo .logo-box { width: 100%; min-height: auto; text-align: center; } }
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 
 .logo .row { position: absolute; left: 0; bottom: 0px; height: 75px; width: 100%; padding: 0 50px; }
 
@@ -362,21 +331,10 @@ main section { padding: 25px 100px; }
 
 #headilngs { padding-top: 75px; }
 
-<<<<<<< HEAD
 .typography { padding-top: 25px; padding-bottom: 25px; }
 
 .typography h5 { margin: 0; line-height: 1.2; padding-bottom: 10px; margin-bottom: 30px; margin-top: 30px; border-bottom: 2px solid #7CC3F6; }
 
-=======
-.typography { padding-top: 0px; padding-bottom: 0px; }
-
-.typography h5 { margin: 0; line-height: 1.2; padding-bottom: 10px; margin-bottom: 30px; margin-top: 30px; border-bottom: 2px solid #7CC3F6; }
-
-.typography .subheadlines { padding-top: 50px; padding-bottom: 50px; }
-
-@media (max-width: 768px) { .typography .subheadlines h5 { margin-top: 75px; } }
-
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 .typography h4 { font-size: 22px; font-weight: 600; margin-bottom: 0; }
 
 .typography p { margin-bottom: 2em; color: #999; }
@@ -399,13 +357,7 @@ main section { padding: 25px 100px; }
 
 @media (max-width: 768px) { .typography .demo-text-box h4 { text-align: left; margin-bottom: 25px; } }
 
-<<<<<<< HEAD
 .rotate { position: relative; overflow: hidden; color: #000; margin: 0px 0; text-align: center; text-transform: uppercase; display: block; }
-=======
-.rotate { height: 60px; overflow: hidden; width: 100%; margin-top: 30px; }
-
-.rotate span { color: #000; margin: 0; height: 60px; font-weight: 600; font-size: 54px; line-height: 60px; text-align: center; transition: margin-top .3s ease; display: block; }
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 
 .purple-border { font-weight: 600; font-size: 22px; }
 
@@ -438,11 +390,8 @@ main section { padding: 25px 100px; }
 
 .voice-and-tone table.voice-elements { margin: 0 -50px; margin-top: 25px; }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) { .voice-and-tone table.voice-elements { margin: 25px 0; } }
 
-=======
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 .voice-and-tone table.voice-elements th { text-align: left; padding: 20px; font-size: 22px; border-bottom: 1px solid #000; color: #000; font-weight: 600; }
 
 @media (max-width: 768px) { .voice-and-tone table.voice-elements th { padding: 10px; font-size: 14px; } }
@@ -457,11 +406,8 @@ main section { padding: 25px 100px; }
 
 .voice-and-tone table.wisely { text-align: left; margin: 25px -50px; }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) { .voice-and-tone table.wisely { margin: 25px 0; } }
 
-=======
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 .voice-and-tone table.wisely thead tr { padding-bottom: 20px; }
 
 .voice-and-tone table.wisely td, .voice-and-tone table.wisely th { width: 33.3%; padding: 15px; }
@@ -488,11 +434,7 @@ main section { padding: 25px 100px; }
 
 .voice-and-tone .active-voice thead th p { font-size: 18px; font-weight: bold; padding: 20px; padding-top: 30px; border: 1px solid #ccc; background: #355D8A; color: #fff; font-weight: 500; text-align: center; }
 
-<<<<<<< HEAD
 .voice-and-tone .active-voice tbody tr td p { background: #eee; padding: 20px; padding-top: 30px; font-size: 16px; font-weight: 500; }
-=======
-.voice-and-tone .active-voice tbody tr t0vyb67g tyb7n8 td p { background: #eee; padding: 20px; padding-top: 30px; font-size: 16px; font-weight: 500; }
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
 
 .voice-and-tone .quote-list .quote-box { width: 90%; margin-bottom: 50px; }
 
@@ -505,7 +447,6 @@ main section { padding: 25px 100px; }
 .voice-and-tone .quote-list .quote-box a { font-weight: 600; font-size: 14px; display: block; color: #9581CA; }
 
 @media (max-width: 768px) { .voice-and-tone .quote-list .quote-box a { font-size: 12px; } }
-<<<<<<< HEAD
 
 .rotating { display: inline-block; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transform: rotateX(0) rotateY(0) rotateZ(0); transform: rotateX(0) rotateY(0) rotateZ(0); transition: 0.5s; -webkit-transform-origin-x: 50%; }
 
@@ -530,5 +471,3 @@ main section { padding: 25px 100px; }
 .rotating.flip.cube .back { -webkit-transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.9, 0.9); transform: rotateY(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85); }
 
 .rotating.flip.cube.up .back { -webkit-transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.9, 0.9); transform: rotateX(180deg) translate3d(0, 0, 100px) scale(0.85, 0.85); }
-=======
->>>>>>> ede2cea2abbfb4af4b9a106c422d3eda2edab072
